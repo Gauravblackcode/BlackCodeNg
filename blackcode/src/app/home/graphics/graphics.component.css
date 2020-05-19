@@ -1,0 +1,13 @@
+.box{
+  background-color: rgba(0, 0, 0, 0.609);
+  border-color: red red black red;
+  color: whitesmoke;
+  padding-bottom: 5rem;
+}
+.caro{
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  height: fit-content;
+  margin: auto;
+}
+

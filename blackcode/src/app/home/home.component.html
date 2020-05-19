@@ -20,7 +20,7 @@
 
               <div class="card-text text-center">
                 <h2>Web & Mobile App Development</h2>
-                <button class="btn btn-outline-dange  r">Explore Work</button>
+                <button class="btn btn-outline-danger" [routerLink]="['/development']" >Explore Work</button>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <img class="card-img-top img-fluid" src="../../assets/graphic.jpg" alt="Card image cap">
               <div class="card-text text-center">
                 <h2>Graphics Designing</h2>
-                <button class="btn btn-outline-danger">Explore Work</button>
+                <button class="btn btn-outline-danger" [routerLink]="['/graphics']">Explore Work</button>
               </div>
             </div>
           </div>
@@ -103,60 +103,9 @@
           Get in touch to let us know what you’re looking for and one of our solutions
            architects will get back to you soon.
         </h4>
-        <button type="submit" class="btn btn-outline-danger mt-5">CONTACT US</button>
+        <button type="submit" class="btn btn-outline-danger mt-5" [routerLink]="['/contact']" routerLinkActive="router-link-active" >CONTACT US</button>
       </div>
 
     </div>
   </div>
-</section>
-<!-- footer -->
-
-<section class="pt-5">
-  <div class="row  footer text-center border border-danger">
-      <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
-        <p><span ></span> PORTFOLIO</p>
-        <ul class="list-none">
-            <li><a href="#">Development</a></li>
-            <li><a href="#">Designing</a></li>
-            <li><a href="#">Editing</a></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
-         <p><span ></span>SERVICES</p>
-         <ul class="list-none">
-             <li><span class="fa fa-map-makrer"></span>
-              <a href="#">
-                Web & Mobile App Development
-              </a></li>
-             <li><span class="fa fa-map-makrer"></span><a href="#">Graphics Designing</a> </li>
-             <li><span class="fa fa-map-makrer"><a href="#"> Video Editing</a></span></li>
-         </ul>
-      </div>
-
-      <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
-        <p><span></span>CONTACT</p>
-        <ul >
-            <li><span class="fa fa-email"></span> <a href="#"> Guarecasm@gmail.com</a> </li>
-            <li><span class="fa fa-email"></span>+91-9117815171</li>
-        </ul>
-     </div>
-
-  </div>
-  <div class="container">
-    <div class="row social">
-      <div class="col-8">
-        <img src="../../assets/designing.png" class="mr-2 img-fluid" alt="BlackCode">
-        <span>© 2017, BlackCode Technologies, All Right Reserve</span>
-
-      </div>
-      <div class="col-4 float-right">
-        <span class="fa fa-envelope m-2"></span>
-        <span class="fa fa-facebook-official m-2"></span>
-        <span class="fa fa-instagram m-2"></span>
-        <span class="fa fa-linkedin-square m-2"></span>
-      </div>
-    </div>
-  </div>
-
 </section>

@@ -1,23 +1,78 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
+<section>
+  <div class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand font-weight-bold" [routerLink]="['/']" routerLinkActive="router-link-active" >BlackCode Technologies</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapseNAvbarId"
+      aria-controls="collapseNAvbarId" aria-expanded="false">
+      <span class="navbar-toggler-icon"> </span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapseNAvbarId">
+      <ul class="navbar-nav ml-auto pl-5">
+        <li class="nav-item active">
+          <a class="nav-link slide-vertical" href="index.html"> HOME</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link slide-vertical">SERVICES</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link slide-vertical" href="portfolio.html"> PORTFOLIO</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</nav>
+</section>
+
 <router-outlet></router-outlet>
+
+
+    <div class="footerbotom">
+      <div class="row  footer text-center border border-danger">
+        <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
+          <p><span></span> PORTFOLIO</p>
+          <ul class="list-none">
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Designing</a></li>
+            <li><a href="#">Editing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
+          <p><span></span>SERVICES</p>
+          <ul class="list-none">
+            <li><span class="fa fa-map-makrer"></span>
+              <a href="#">
+                Web & Mobile App Development
+              </a></li>
+            <li><span class="fa fa-map-makrer"></span><a href="#">Graphics Designing</a> </li>
+            <li><span class="fa fa-map-makrer"><a href="#"> Video Editing</a></span></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
+          <p><span></span>CONTACT</p>
+          <ul>
+            <li><span class="fa fa-email"></span> <a href="#"> Guarecasm@gmail.com</a> </li>
+            <li><span class="fa fa-email"></span>+91-9117815171</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="row social">
+          <div class="col-8">
+            <img src="../../assets/designing.png" class="mr-2 img-fluid" alt="BlackCode">
+            <span>© 2017, BlackCode Technologies, All Right Reserve</span>
+
+          </div>
+          <div class="col-4 float-right">
+            <span class="fa fa-envelope m-2"></span>
+            <span class="fa fa-facebook-official m-2"></span>
+            <span class="fa fa-instagram m-2"></span>
+            <span class="fa fa-linkedin-square m-2"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+

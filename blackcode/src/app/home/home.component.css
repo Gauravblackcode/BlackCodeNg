@@ -42,31 +42,3 @@
   padding: 3rem;
   margin: 2rem;
 }
-.footer{
-border-radius: 8rem 8rem 0rem 0rem;
-outline-color: red;
-color: white;
-border-color: red;
-padding: 1rem;
-}
-.footer ul{
-  list-style: none;
-  color: whitesmoke;
-}
-.footer a{
-  color: whitesmoke;
-}
-.footer a:hover{
-  color: red;
-}
-.social{
-  color: white;
-}
-.social img{
-  height: 3rem;
-  width: 3rem;
-}
-.social span:hover{
-  color: red;
-
-}

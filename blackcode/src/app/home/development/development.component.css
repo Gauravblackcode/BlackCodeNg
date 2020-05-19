@@ -1,0 +1,29 @@
+.tech{
+  background-image: url(../../../assets/dev-team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+}
+.back{
+  background-color: rgba(0, 0, 0, 0.76);
+padding: 5rem;
+text-align: center;
+color: whitesmoke;
+}
+.style-none{
+  list-style: none;
+  color: white;
+}
+
+.boxstyle {
+  box-shadow: -1px 8px 20px 3px #340d0d;
+
+}
+.white{
+  color: whitesmoke;
+}
+.back h1{
+  color: whitesmoke;
+  padding-top: 0px;
+  text-decoration: underline brown;
+}
