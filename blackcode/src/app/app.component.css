@@ -4,9 +4,7 @@
 .navbar-brand{
   color: brown !important;
 }
-.active a{
-  color: whitesmoke !important;
-}
+
 .footerbotom{
   bottom: 0;
   width: 100%;

@@ -1,0 +1,113 @@
+<section>
+  <div class="row bgimage img-fluid">
+    <div class="col-10 detail left">
+      <p class="hi" >Hi There, i'm</p>
+      <p class="name">GAURAV PRAJAPATI</p>
+      <p class="prof">A Full Stack Developer</p>
+      <button type="submit" class="btn btn-outline-primary btn-sm mt-2">Download Resume</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row m-auto pt-5 techs">
+      <div class="row top">
+        <h2 class="about ">ABOUT ME</h2>
+        <h6>A Full Stack Developer. <br> Who Develope Web & Mobile Application , Design Graphics And Edit Videos. <br>
+          Specialy who focuses on writing clean, elegant and efficient code.
+        </h6>
+      </div>
+      <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-10">
+              <img src="../../../assets/stack.png"  class="img-fluid p-3" alt="">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-10">
+              <img src="../../../assets/backend.png" class="img-fluid p-3 " alt="">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-10">
+              <img src="../../../assets/devops.png"  class="img-fluid p-3"  alt="">
+          </div>
+          <div class="row">
+            <div class="col-2"></div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-10">
+              <img src="../../../assets/mobile.png"  class="img-fluid p-3" alt="">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-10">
+              <img src="../../../assets/graphics.png" class="img-fluid p-3" alt="">
+            </div>
+            <div class="col-2"></div>
+
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+
+<section>
+  <div class="container">
+    <div class="row center">
+      <div class="col-10 m-auto">
+        <h1 style="color: whitesmoke;"> Let’s Work Together</h1>
+        <h4 class="mt-3">
+          Get in touch to let me know what you’re looking for..
+        </h4>
+        <button type="submit" class="btn btn-outline-danger mt-5 " [routerLink]="['']" routerLinkActive="router-link-active" >Explore Work</button>
+        <button type="submit" class="btn btn-outline-danger mt-5 ml-5"
+        (click)="viewbox()"
+         >CONTACT ME</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- contact box -->
+<div class="container" *ngIf="box">
+
+  <div class="row w-100 p-10 m-auto">
+
+    <form action="" method="post" class="pt-3 w-100">
+
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group pt-5">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group pt-5">
+            <label for="name">Email</label>
+            <input type="text" class="form-control" >
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group pt-5">
+            <label for="name">Company</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group pt-5">
+            <label for="name">Phone No</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group pt-5">
+        <label for="name">Message</label>
+        <textarea name="" id="" cols="20" rows="6" class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-danger btn-lg float-right mb-5">Send</button>
+    </form>
+  </div>
+
+</div>

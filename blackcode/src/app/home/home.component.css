@@ -8,14 +8,27 @@
 }
 .image{
   padding: 3rem;
+  animation: ease-in-out 0.4s;
 }
 .card{
   background-color: black;
   border-color: red red black red;
 }
+.animate{
+  animation-duration: 1s;
+  animation-name: slideAnimation;
+
+}
+@keyframes slideAnimation {
+  0% {color: white; right: 0px; bottom: -850px;}
+
+
+  100% {color: #00c0da; right: 0px;  bottom: 0px;}
+}
 .card h2{
   color: whitesmoke;
 }
+/* about team */
 .team{
   background-image: url(../../assets/team1.jpg);
 }
@@ -41,4 +54,10 @@
   align-items: center;
   padding: 3rem;
   margin: 2rem;
+}
+
+.popup{
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  background-color: red;
 }

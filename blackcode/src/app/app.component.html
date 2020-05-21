@@ -9,14 +9,14 @@
     <div class="collapse navbar-collapse" id="collapseNAvbarId">
       <ul class="navbar-nav ml-auto pl-5">
         <li class="nav-item active">
-          <a class="nav-link slide-vertical" href="index.html"> HOME</a>
+          <a class="nav-link slide-vertical" [routerLink]="['']" routerLinkActive="router-link-active" > HOME</a>
         </li>
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link slide-vertical">SERVICES</a>
+        <li class="nav-item">
+          <a href="#" class="nav-link slide-vertical" [routerLink]="['/portfolio']" routerLinkActive="router-link-active" >SERVICES</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link slide-vertical" href="portfolio.html"> PORTFOLIO</a>
+          <a class="nav-link slide-vertical" [routerLink]="['/portfolio']" routerLinkActive="router-link-active"  > PORTFOLIO</a>
         </li>
       </ul>
     </div>

@@ -1,0 +1,106 @@
+/* section one intro */
+.bgimage{
+  background-image: url(../../../assets/bgimage.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 2rem;
+  background-size: 100%;
+  display: block;
+}
+.hi{
+  font-size: 1.5rem;
+  color: brown;
+  margin: 0rem;
+  padding: 0rem;
+}
+.name {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 0rem;
+  margin: 0rem;
+  color: brown;
+}
+.prof{
+  font-size: 2rem;
+  color: brown;
+  font-weight: 500;
+  padding: 0rem;
+  margin: 0rem;
+}
+.detail{
+  padding-top: 15rem;
+  animation-duration: 4s;
+  animation-name: slideAnimation;
+
+}
+@keyframes slideAnimation {
+  0% {color: white; right: -815px; top: 0px;}
+  40% {color:#00e1ff;}
+
+  50% {color: #00c0da; right: 0px; top: 0px;}
+}
+
+@media (max-width: 525px){
+  .bgimage{
+    height: 200px;
+  }
+  .detail{
+    padding-left: 0rem;
+    padding-top: 4rem;
+  }
+  .hi{
+    font-size: 0.6rem;
+    color: brown;
+    font-weight: 500;
+  }
+  .name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: brown;
+  }
+  .prof{
+    font-size: 0.8rem;
+    color: brown;
+    font-weight: 500;
+  }
+}
+
+/* section one intro end*/
+.techs{
+  background-image: url(../../../assets/computer.jpg);
+}
+.top{
+  width: 100%;
+  margin: auto;
+  /* background-color: rgba(0, 0, 0, 0.582); */
+  text-align: center;
+  justify-content: center;
+}
+.top h6{
+  color: whitesmoke;
+}
+.about{
+  width: 100%;
+  font-weight: 500;
+  color: black;
+  text-decoration: underline brown;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+
+
+/* MY details end */
+.center{
+  text-align: center;
+  align-items: center;
+  /* padding: 3rem; */
+  margin: 2rem;
+}
+
+
+/* contact */
+label{
+  color: brown  ;
+}
